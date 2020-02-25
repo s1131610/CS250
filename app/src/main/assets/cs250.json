@@ -1,0 +1,290 @@
+{"cs250students" :
+[
+  {
+    "Student Name": "Adams, Evan S",
+    "ID": "1112192",
+    "Email": "s1112192@monmouth.edu",
+    "Major": "CS",
+    "Class": 4,
+    "Advisor": "G. Eckert",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1112192.jpg"
+  },
+  {
+    "Student Name": "Aiken, Bradley Earle",
+    "ID": "1175816",
+    "Email": "s1175816@monmouth.edu",
+    "Major": "CS",
+    "Class": 4,
+    "Advisor": "R. Scherl",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1175816.jpg"
+  },
+  {
+    "Student Name": "Caporaso, John Anthony",
+    "ID": "1244980",
+    "Email": "s1244980@monmouth.edu",
+    "Major": "CS",
+    "Class": 4,
+    "Advisor": "K. Gatto",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1244980.jpg"
+  },
+  {
+    "Student Name": "Chen, Christopher Andrew",
+    "ID": "1165676",
+    "Email": "s1165676@monmouth.edu",
+    "Major": "CS",
+    "Class": 3,
+    "Advisor": "R. Scherl",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1165676.jpg",
+    "Credits": 3,
+    "Admit Status": " "
+  },
+  {
+    "Student Name": "Clemente, Christopher D",
+    "ID": "1128287",
+    "Email": "s1128287@monmouth.edu",
+    "Major": "CS",
+    "Class": 3,
+    "Advisor": "C. Yu",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1128287.jpg"
+  },
+  {
+    "Student Name": "Cucciniello, Nico P",
+    "ID": "1293334",
+    "Email": "s1293334@monmouth.edu",
+    "Major": "CS",
+    "Class": 4,
+    "Advisor": "C. Yu",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1293334.jpg"
+  },
+  {
+    "Student Name": "Faenza, Salvatore Anthony",
+    "ID": "0987272",
+    "Email": "s0987272@monmouth.edu",
+    "Major": "CS",
+    "Class": 3,
+    "Advisor": "L. Zheng",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/0987272.jpg"
+  },
+  {
+    "Student Name": "Faiz, Hamza",
+    "ID": "1022466",
+    "Email": "s1022466@monmouth.edu",
+    "Major": "CS",
+    "Class": 4,
+    "Advisor": "Unknown",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1022466.jpg"
+  },
+  {
+    "Student Name": "Falzini, Joseph Alexander Sousa",
+    "ID": "1177789",
+    "Email": "s1177789@monmouth.edu",
+    "Major": "CS",
+    "Class": 3,
+    "Advisor": "R. Scherl",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1177789.jpg"
+  },
+  {
+    "Student Name": "Guseman, John M",
+    "ID": "1212434",
+    "Email": "s1212434@monmouth.edu",
+    "Major": "CS",
+    "Class": 3,
+    "Advisor": "R. Scherl",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1212434.jpg"
+  },
+  {
+    "Student Name": "Henry, Brandon Michael",
+    "ID": "1169137",
+    "Email": "s1169137@monmouth.edu",
+    "Major": "CS",
+    "Class": 3,
+    "Advisor": "J. Kretsch",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1169137.jpg"
+  },
+  {
+    "Student Name": "Hewitt, Daniel John",
+    "ID": "1225245",
+    "Email": "s1225245@monmouth.edu",
+    "Major": "CS",
+    "Class": 2,
+    "Advisor": "E. Cesario",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1225245.jpg"
+  },
+  {
+    "Student Name": "Innocent, Donovin",
+    "ID": "1100622",
+    "Email": "s1100622@monmouth.edu",
+    "Major": "CS",
+    "Class": 4,
+    "Advisor": "K. Gatto",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1100622.jpg"
+  },
+  {
+    "Student Name": "James, Charles Abiodun",
+    "ID": "1132281",
+    "Email": "s1132281@monmouth.edu",
+    "Major": "CS",
+    "Class": 4,
+    "Advisor": "G. Eckert",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1132281.jpg"
+  },
+  {
+    "Student Name": "Johnson, Spencer Christian",
+    "ID": "1224708",
+    "Email": "s1224708@monmouth.edu",
+    "Major": "CS",
+    "Class": 2,
+    "Advisor": "J. Chung",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1224708.jpg"
+  },
+  {
+    "Student Name": "Jones, Matthew Aubyn",
+    "ID": "1095689",
+    "Email": "s1095689@monmouth.edu",
+    "Major": "CS",
+    "Class": 2,
+    "Advisor": "R. Scherl",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1095689.jpg"
+  },
+  {
+    "Student Name": "Kraemer, Kimberly Ann",
+    "ID": "1131610",
+    "Email": "s1131610@monmouth.edu",
+    "Major": "CS",
+    "Class": 3,
+    "Advisor": "J. Kretsch",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1131610.jpg"
+  },
+  {
+    "Student Name": "Kulka, Michael David",
+    "ID": "1156991",
+    "Email": "s1156991@monmouth.edu",
+    "Major": "CS",
+    "Class": 4,
+    "Advisor": "R. Scherl",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1156991.jpg"
+  },
+  {
+    "Student Name": "Lodato, Nicholas John",
+    "ID": "1257138",
+    "Email": "s1257138@monmouth.edu",
+    "Major": "CS",
+    "Class": 3,
+    "Advisor": "C. Yu",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1257138.jpg"
+  },
+  {
+    "Student Name": "Mancino, Matthew James",
+    "ID": "1049286",
+    "Email": "s1049286@monmouth.edu",
+    "Major": "CS",
+    "Class": 4,
+    "Advisor": "K. Gatto",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1049286.jpg"
+  },
+  {
+    "Student Name": "McCann, Jason Garth",
+    "ID": "1191052",
+    "Email": "s1191052@monmouth.edu",
+    "Major": "CS",
+    "Class": 3,
+    "Advisor": "R. Scherl",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1191052.jpg"
+  },
+  {
+    "Student Name": "Paiva, Noah Alexander",
+    "ID": "1194309",
+    "Email": "s1194309@monmouth.edu",
+    "Major": "CS",
+    "Class": 3,
+    "Advisor": "R. Scherl",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1194309.jpg"
+  },
+  {
+    "Student Name": "Parada, Hugo Walter",
+    "ID": "1129405",
+    "Email": "s1129405@monmouth.edu",
+    "Major": "CS",
+    "Class": 4,
+    "Advisor": "G. Eckert",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1129405.jpg"
+  },
+  {
+    "Student Name": "Rice, Jordan D",
+    "ID": "1093581",
+    "Email": "s1093581@monmouth.edu",
+    "Major": "CS",
+    "Class": 4,
+    "Advisor": "K. Gatto",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1093581.jpg"
+  },
+  {
+    "Student Name": "Vella, Nicholas James",
+    "ID": "0999371",
+    "Email": "s0999371@monmouth.edu",
+    "Major": "CS",
+    "Class": 4,
+    "Advisor": "G. Eckert",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/0999371.jpg"
+  },
+  {
+    "Student Name": "Wilson, Ryan Allen",
+    "ID": "1196550",
+    "Email": "s1196550@monmouth.edu",
+    "Major": "CS",
+    "Class": 3,
+    "Advisor": "J. Kretsch",
+    "Credits": 3,
+    "Admit Status": " ",
+    "photoURL" : "https://s3.amazonaws.com/cs250.monmouth.edu/photos/1196550.jpg"
+  }
+]
+}
