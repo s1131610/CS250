@@ -1,8 +1,9 @@
+//Kim Kraemer
+//CS250-Student class
 
 import android.content.Context
 import org.json.JSONException
 import org.json.JSONObject
-
 
     /*define Class properties based on the roster
     JSON file, parse the JSON, and create Student objects based on JSON keys, and
@@ -40,7 +41,7 @@ class Student (
                 val jsonString = loadJsonFromAsset(filename, context)
                 if (jsonString != null) {
                     val json = JSONObject(jsonString)  // decode JSON Sting to an key-value pair map
-                    val students = json.getJSONArray("students")
+                    val students = json.getJSONArray("cs250students")
 
                     // Get Student objects from data
                     (0 until students.length()).mapTo(studentList) {
@@ -79,7 +80,6 @@ class Student (
                 val charset = Charsets.UTF_8
 
                 json = buffer.toString(charset)
-
 
             } catch (ex: java.io.IOException) {
                 ex.printStackTrace()

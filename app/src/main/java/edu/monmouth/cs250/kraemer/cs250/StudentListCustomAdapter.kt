@@ -1,3 +1,6 @@
+//Kim Kraemer
+//CS250-StudentListCustomAdapter
+
 package edu.monmouth.cs250.kraemer.cs250
 
     import Student
@@ -11,13 +14,12 @@ package edu.monmouth.cs250.kraemer.cs250
     import com.bumptech.glide.Glide
     import kotlinx.android.synthetic.main.studentitem_view.view.*
 
-    class StudentListCustomAdapter ( private val context: Context, val itemviewListener: OnItemClickListner) : RecyclerView.Adapter <CustomViewHolder> () {
+    class StudentListCustomAdapter ( private val context: Context, val itemviewListener: OnItemClickListener) : RecyclerView.Adapter <CustomViewHolder> () {
 
         private var studentList = ArrayList<Student> ()
 
         // intializer method - get the data from Student model class
-        // Note - we are invoking the companion object using class reference Recipe.getRecipesFromFrom(...)
-
+        // Note - we are invoking the companion object using class reference Student.getStudentsFromFile(...)
         init {
             studentList = Student.getStudentsFromFile("cs250.json", context)
         }
@@ -50,7 +52,7 @@ package edu.monmouth.cs250.kraemer.cs250
     }
 // setup the data viewHolder view.
 // Image loaded using Glide image library
-// Also the clickListner.
+// Also the clickListener.
 
     class CustomViewHolder (itemView: View): RecyclerView.ViewHolder (itemView) {
 
@@ -61,24 +63,30 @@ package edu.monmouth.cs250.kraemer.cs250
         var studentYearView: TextView = itemView.studentYearView
 
         // bind data to view
-        // Also onClickListner as a lambda
-        fun bind (student: Student, context: Context, itemviewListner: OnItemClickListner) {
+        // Also onClickListener as a lambda
+        fun bind (student: Student, context: Context, itemviewListener: OnItemClickListener) {
 
             nameTextView.text = student.name
             advisorTextView.text = student.advisor
-            studentYearView.text = student.year.toString()
-            val imgURL = student.photoURL.replace("http:", "https:", true)
-            Glide.with(context).load(imgURL).into(studentImage)
+            //display freshman,sophomore, junior, or senior depending on year
+            when(student.year){
+                1-> studentYearView.text = "Freshman"
+                2-> studentYearView.text = "Sophomore"
+                3 -> studentYearView.text = "Junior"
+                4-> studentYearView.text = "Senior"
+                else->studentYearView.text = "N/A"
+            }
+             val imgURL = student.photoURL.replace("http:", "https:", true)
+             Glide.with(context).load(imgURL).into(studentImage)
 
             itemView.setOnClickListener {
-                itemviewListner.onViewItemClicked(student)
+                print(student.name)
+                itemviewListener.onViewItemClicked(student)
             }
         }
     }
-
 // interface spec to send callback a method in MainActivity which implements this interface
-
-    interface OnItemClickListner {
+    interface OnItemClickListener {
         fun onViewItemClicked(student: Student)
     }
 

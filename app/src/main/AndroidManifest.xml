@@ -18,8 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- Include StudentDetailAcitivity in app -->
-        <!--  <activity android:name=".StudentDetailActivity" ></activity> -->
+        <!-- Include StudentDetailActivity in app -->
+        <activity android:name=".StudentDetailActivity" ></activity>
     </application>
 
 </manifest>
