@@ -45,7 +45,7 @@ class StudentDetailActivity: AppCompatActivity() {
         setTitle(title)
         //set image
         val imgURL = xtraImg?.replace("http:", "https:", true)
-        Glide.with(this).load(EXTRA_IMAGE).into(studentImage)
+        Glide.with(context).load(EXTRA_IMAGE).into(studentImage)
 
         //set student name
         studentNameText.text = title
@@ -55,12 +55,5 @@ class StudentDetailActivity: AppCompatActivity() {
         if(year ==3 || year ==4){
             yearSwitch.isChecked = true
         }
-        /*//set the image to the student's image
-        studentimageview = findViewById(R.id.studentImage)
-        //studentimageview.
-        //set studentNameText to student's name
-        studentnameview = findViewById(R.id.studentNameText)
-        studentidview.setText(student.id)
-       */
     }
 }
