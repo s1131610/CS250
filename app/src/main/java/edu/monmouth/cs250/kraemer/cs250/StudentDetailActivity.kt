@@ -45,8 +45,7 @@ class StudentDetailActivity: AppCompatActivity() {
         setTitle(title)
         //set image
         val imgURL = xtraImg?.replace("http:", "https:", true)
-        Glide.with(context).load(EXTRA_IMAGE).into(studentImage)
-
+        Glide.with(this).load(imgURL).override(250,250).into(studentImage)
         //set student name
         studentNameText.text = title
         //display email under image
